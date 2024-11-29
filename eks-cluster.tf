@@ -8,7 +8,7 @@ module "eks" {
   enable_irsa = true
 
   tags = {
-    cluster = "blue-mobin-us-east-1"
+    cluster = "blue-mobin-ap-southeast-2"
   }
 
   vpc_id = module.vpc.vpc_id
